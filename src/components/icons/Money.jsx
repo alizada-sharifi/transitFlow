@@ -1,0 +1,73 @@
+import React from "react";
+
+function Money() {
+  return (
+    <svg
+      width="58"
+      height="58"
+      viewBox="0 0 58 58"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="29" cy="29" r="29" fill="url(#paint0_linear_1_4422)" />
+      <path
+        d="M42.9643 21H16.0357C15.4637 21 15 21.4477 15 22V36C15 36.5523 15.4637 37 16.0357 37H42.9643C43.5363 37 44 36.5523 44 36V22C44 21.4477 43.5363 21 42.9643 21Z"
+        stroke="#1C1F35"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M29.5 33C31.433 33 33 31.433 33 29.5C33 27.567 31.433 26 29.5 26C27.567 26 26 27.567 26 29.5C26 31.433 27.567 33 29.5 33Z"
+        stroke="#1C1F35"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M36 21L44 28"
+        stroke="#1C1F35"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M36 37L44 30"
+        stroke="#1C1F35"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M23 21L15 28"
+        stroke="#1C1F35"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M23 37L15 30"
+        stroke="#1C1F35"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_1_4422"
+          x1="-1.64433"
+          y1="12.5667"
+          x2="71.3201"
+          y2="17.7482"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#FFB629" />
+          <stop offset="0.507189" stop-color="#FFDA56" />
+          <stop offset="1" stop-color="#FFD7A6" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+}
+
+export default Money;
