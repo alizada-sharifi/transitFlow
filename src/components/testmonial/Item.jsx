@@ -2,7 +2,9 @@ import React from "react";
 import { Quotation, Star } from "../icons";
 function Item({ background, name, pic, company, desc, color }) {
   return (
-    <div className={`card w-full py-14 px-16  ${background}`}>
+    <div
+      className={`card w-full py-8 px-10 md:py-12 md:px-14 lg:py-14 lg:px-16  ${background}`}
+    >
       <div className="header flex items-center justify-between">
         <div className="info  flex items-center gap-3">
           <img

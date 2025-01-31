@@ -2,12 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { cn } from "../../helpers/common";
 
-function DarkButton({
-  className = "",
-  type = "button",
-  to,
-  children = "Explore More",
-}) {
+function DarkButton({ className = "", type = "button", to, children = "" }) {
   return to ? (
     <Link
       to={to}

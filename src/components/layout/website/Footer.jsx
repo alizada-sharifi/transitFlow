@@ -37,7 +37,7 @@ function Footer() {
         <div className=" w-full md:w-5/12 lg:w-3/12">
           <Logo />
           <div className="content flex flex-col gap-4 mt-8">
-            <p className="font-Krub font-medium text-secondary-50 text-justify">
+            <p className="font-Krub font-medium text-secondary-50 ">
               Leverage agile frameworks to provide a robust synopsis for
               strategy collaborative thinking to further the overall value
               proposition.
@@ -98,6 +98,7 @@ function Footer() {
               <form
                 onSubmit={methods.handleSubmit(onSubmit)}
                 className="space-y-4"
+                noValidate
               >
                 <Input
                   name="email"

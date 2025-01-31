@@ -6,7 +6,7 @@ function GoldenButton({
   className = "",
   type = "button",
   to,
-  children = "Explore More",
+  children = "",
 }) {
   const buttonClass = cn(
     "font-extrabold bg-golden-btnBg bg-center bg-cover py-4 px-6 hover:bg-hover-golden text-secondary-200 font-Krub transition-all ease-in-out duration-300",

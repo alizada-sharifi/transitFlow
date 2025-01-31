@@ -14,7 +14,7 @@ function Input({ name = "", placeholder = "", type = "text", className = "" }) {
         type={type}
         placeholder={placeholder}
         className={cn(
-          "block w-full border border-primary-400 bg-transparent py-4 px-2 outline-none text-white",
+          "inline-block w-full border border-primary-400 bg-transparent py-4 px-2 outline-none text-white",
           className,
           {
             "border-error focus:border-error": errors[name],
