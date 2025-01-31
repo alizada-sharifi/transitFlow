@@ -6,7 +6,7 @@ function MainLayout() {
     <>
       <Header />
       <main className="flex flex-col grow">
-        <Outlet /> {/* Placeholder for child components */}
+        <Outlet />
       </main>
       <Footer />
     </>

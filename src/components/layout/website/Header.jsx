@@ -93,7 +93,7 @@ function Header() {
                 }
               >
                 Pages
-                {isPagesOpen ? <ArrowUp /> : <ArrowDown />}
+                {isPagesOpen ? <ArrowUp /> : <ArrowDown className={"stroke-white"} />}
               </NavLink>
               {/*================ Dropdown menu ================ */}
               {isPagesOpen && (

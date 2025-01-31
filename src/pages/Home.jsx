@@ -183,7 +183,7 @@ function Home() {
               id dapibus finibus, enim diam interdum nulla, sed laoreet risus
               lectus.
             </p>
-            <GoldenButton className={"my-4"} />
+            <GoldenButton className={"my-4"}>Explore more</GoldenButton>
           </div>
         </div>
       </div>
@@ -197,7 +197,7 @@ function Home() {
         </div>
         <div className=" w-full md:w-8/12 flex  flex-wrap gap-y-16">
           {ServicesInfo.map((item) => (
-            <Item key={item.id} {...item} />
+            <Item key={item.id} {...item} iconClassName={"w-1/4"} className={"w-full md:w-1/2"} />
           ))}
         </div>
       </div>

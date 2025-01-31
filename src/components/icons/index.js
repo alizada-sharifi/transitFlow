@@ -28,3 +28,6 @@ export { default as Clock2 } from "./Clock2";
 export { default as Coin } from "./Coin";
 export { default as Travel } from "./Travel";
 export { default as Calender } from "./Calender";
+export { default as Board } from "./Board";
+export { default as User } from "./User";
+export { default as ToggleRight } from "./ToggleRight";

@@ -33,6 +33,7 @@ module.exports = {
         "hover-golden": "url(./src/assets/images/hover-golden.png)",
         darkBtn: "url(./src/assets/images/darkBtn.png)",
         "hover-dark": "url(./src/assets/images/hover-dark.png)",
+        aboutBanner: "url(./src/assets/images/aboutBanner.png)",
       },
       fontFamily: {
         Krub: ["krub", "sans-serif"],

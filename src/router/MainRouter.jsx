@@ -1,17 +1,21 @@
-import { Home, NotFound } from "../pages";
+import { About, Home, NotFound } from "../pages";
 import MainLayout from "../layouts/MainLayout";
 
 const MainRouter = [
   {
     path: "/",
-    element: <MainLayout />, // Parent layout
+    element: <MainLayout />,
     children: [
       {
-        path: "", // Matches "/"
+        path: "",
         element: <Home />,
       },
       {
-        path: "*", // Matches all undefined routes
+        path: "about",
+        element: <About />,
+      },
+      {
+        path: "*",
         element: <NotFound />,
       },
     ],
