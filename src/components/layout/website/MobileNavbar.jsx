@@ -21,10 +21,9 @@ function MobileNavbar() {
           </button>
         </div>
       </div>
-
       <div
         className={cn(
-          "fixed inset-0 hidden bg-gray-900/20 transition-opacity duration-300 ease-linear opacity-0",
+          "fixed inset-0 hidden bg-gray-900/20 transition-opacity duration-300 ease-linear opacity-0 z-50",
           {
             "!block opacity-1": isOpen,
           }
@@ -84,7 +83,7 @@ function MobileNavbar() {
                 }
               >
                 Pages
-                {isPagesOpen ? <ArrowUp /> : <ArrowDown />}
+                {isPagesOpen ? <ArrowUp /> : <ArrowDown className={"fill-white"} />}
               </NavLink>
               {/*================ Dropdown menu ================ */}
               {isPagesOpen && (
@@ -94,12 +93,6 @@ function MobileNavbar() {
                     className="block py-2 px-4 text-sm hover:bg-primary-100"
                   >
                     Services
-                  </NavLink>
-                  <NavLink
-                    to="/serviceDetail"
-                    className="block py-2 px-4 text-sm hover:bg-primary-100"
-                  >
-                    Service Detail
                   </NavLink>
                   <NavLink
                     to="/team"
@@ -124,12 +117,6 @@ function MobileNavbar() {
                     className="block py-2 px-4 text-sm hover:bg-primary-100"
                   >
                     Blog
-                  </NavLink>
-                  <NavLink
-                    to="/blogDetail"
-                    className="block py-2 px-4 text-sm hover:bg-primary-100"
-                  >
-                    Blog Detail
                   </NavLink>
                 </div>
               )}

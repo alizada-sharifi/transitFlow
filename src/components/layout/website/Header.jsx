@@ -93,52 +93,65 @@ function Header() {
                 }
               >
                 Pages
-                {isPagesOpen ? <ArrowUp /> : <ArrowDown className={"stroke-white"} />}
+                {isPagesOpen ? (
+                  <ArrowUp />
+                ) : (
+                  <ArrowDown className={"stroke-white"} />
+                )}
               </NavLink>
               {/*================ Dropdown menu ================ */}
               {isPagesOpen && (
                 <div className="absolute left-0 mt-2 bg-white text-black w-48 shadow-lg font-Rubik font-medium">
                   <NavLink
                     to="/services"
-                    className="block py-2 px-4 text-sm hover:bg-gray-200"
+                    className={({ isActive }) =>
+                      cn("block py-2 px-4 text-sm hover:bg-slate", {
+                        "bg-slate": isActive,
+                      })
+                    }
                   >
                     Services
                   </NavLink>
-                  <NavLink
-                    to="/serviceDetail"
-                    className="block py-2 px-4 text-sm hover:bg-gray-200"
-                  >
-                    Service Detail
-                  </NavLink>
+
                   <NavLink
                     to="/team"
-                    className="block py-2 px-4 text-sm hover:bg-gray-200"
+                    className={({ isActive }) =>
+                      cn("block py-2 px-4 text-sm hover:bg-slate", {
+                        "bg-slate": isActive,
+                      })
+                    }
                   >
                     Team
                   </NavLink>
                   <NavLink
                     to="/pricing"
-                    className="block py-2 px-4 text-sm hover:bg-gray-200"
+                    className={({ isActive }) =>
+                      cn("block py-2 px-4 text-sm hover:bg-slate", {
+                        "bg-slate": isActive,
+                      })
+                    }
                   >
                     Pricing
                   </NavLink>
                   <NavLink
                     to="/404"
-                    className="block py-2 px-4 text-sm hover:bg-gray-200"
+                    className={({ isActive }) =>
+                      cn("block py-2 px-4 text-sm hover:bg-slate", {
+                        "bg-slate": isActive,
+                      })
+                    }
                   >
                     404 Page
                   </NavLink>
                   <NavLink
                     to="/blog"
-                    className="block py-2 px-4 text-sm hover:bg-gray-200"
+                    className={({ isActive }) =>
+                      cn("block py-2 px-4 text-sm hover:bg-slate", {
+                        "bg-slate": isActive,
+                      })
+                    }
                   >
                     Blog
-                  </NavLink>
-                  <NavLink
-                    to="/blogDetail"
-                    className="block py-2 px-4 text-sm hover:bg-gray-200"
-                  >
-                    Blog Detail
                   </NavLink>
                 </div>
               )}
