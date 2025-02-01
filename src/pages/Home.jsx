@@ -183,7 +183,7 @@ function Home() {
               id dapibus finibus, enim diam interdum nulla, sed laoreet risus
               lectus.
             </p>
-            <GoldenButton className={"my-4"}>Explore more</GoldenButton>
+            <GoldenButton className={"my-4"} to={"/about"} >Explore more</GoldenButton>
           </div>
         </div>
       </div>
