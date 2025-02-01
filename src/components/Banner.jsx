@@ -1,8 +1,14 @@
 import React from "react";
 import Title from "../components/Title";
-function Banner({ title, info }) {
+import { cn } from "../helpers/common";
+function Banner({ title, info, className }) {
   return (
-    <div className="banner bg-aboutBanner py-40 bg-center bg-cover mb-10">
+    <div
+      className={cn(
+        "banner bg-aboutBanner py-40 bg-center bg-cover mb-10",
+        className
+      )}
+    >
       <div className="container">
         <Title text={title} className={"text-white"} />
         <h2 className="font-Rubik font-bold text-3xl md:text-5xl mt-4 text-white">

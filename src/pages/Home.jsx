@@ -161,7 +161,7 @@ function Home() {
     },
     {
       id: 3,
-      pic: blog1,
+      pic: blog3,
       day: "25",
       month: "March",
       title: "Five things you should have ready for your broker",
@@ -197,7 +197,12 @@ function Home() {
         </div>
         <div className=" w-full md:w-8/12 flex  flex-wrap gap-y-16">
           {ServicesInfo.map((item) => (
-            <Item key={item.id} {...item} iconClassName={"w-1/4"} className={"w-full md:w-1/2"} />
+            <Item
+              key={item.id}
+              {...item}
+              iconClassName={"w-1/4"}
+              className={"w-full md:w-1/2"}
+            />
           ))}
         </div>
       </div>

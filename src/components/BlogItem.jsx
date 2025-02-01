@@ -1,9 +1,8 @@
 import React from "react";
-import pic from "../assets/images/blog1.png";
 import { Calender } from "./icons";
 import { Link } from "react-router-dom";
 import { cn } from "../helpers/common";
-function BlogItem({ className, title, day, month }) {
+function BlogItem({ className, title, day, month , pic }) {
   return (
     <div
       className={cn(
@@ -30,7 +29,7 @@ function BlogItem({ className, title, day, month }) {
           </p>
         </div>
       </div>
-      <div className=" w-full md:w-1/3">
+      <div className=" w-full md:w-1/3 text-left">
         <h2 className="font-Rubik text-2xl text-secondary-400 hover:text-golden">
           {title}
         </h2>

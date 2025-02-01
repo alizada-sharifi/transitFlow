@@ -5,7 +5,6 @@ import employee from "../assets/images/employee.png";
 import person from "../assets/images/blog2.png";
 import Title from "../components/Title";
 import DarkButton from "../components/buttons/DarkButton";
-import Item from "../components/services/Item";
 import team1 from "../assets/images/team1.png";
 import team2 from "../assets/images/team2.png";
 import team3 from "../assets/images/team3.png";
@@ -16,63 +15,12 @@ import img1 from "../assets/images/img1.png";
 import img2 from "../assets/images/img2.png";
 import img3 from "../assets/images/img3.png";
 import img4 from "../assets/images/img4.png";
-import {
-  Airplane,
-  Board,
-  Phone,
-  Ship,
-  Truck,
-  User,
-  Warehouse,
-} from "../components/icons";
+import { Phone } from "../components/icons";
 import PriceCard from "../components/PriceCard";
 import GoldenButton from "../components/buttons/GoldenButton";
 import FaqItem from "../components/FaqItem";
+import Container from "../components/services/Container";
 function About() {
-  const services = [
-    {
-      id: 1,
-      icon: Ship,
-      title: "Sea Transport Services",
-      description:
-        "Following the quality of our service thus having gained trust of our many clients.",
-    },
-    {
-      id: 2,
-      icon: Warehouse,
-      title: "Warehousing Services",
-      description:
-        "Following the quality of our service thus having gained trust of our many clients.",
-    },
-    {
-      id: 3,
-      icon: Airplane,
-      title: "Air Fright Services",
-      description:
-        "Following the quality of our service thus having gained trust of our many clients.",
-    },
-    {
-      id: 4,
-      icon: Board,
-      title: "Project & Exhibition",
-      description:
-        "Following the quality of our service thus having gained trust of our many clients.",
-    },
-    {
-      id: 5,
-      icon: Truck,
-      title: "Local Shipping Services",
-      description:
-        "Following the quality of our service thus having gained trust of our many clients.",
-    },
-    {
-      id: 6,
-      icon: User,
-      title: "Customer Clearance",
-      description:
-        "Following the quality of our service thus having gained trust of our many clients.",
-    },
-  ];
   const teamsInfo = [
     {
       id: 1,
@@ -140,7 +88,11 @@ function About() {
   ];
   return (
     <>
-      <Banner title={"About Us"} info={"About Our Logistics"} />
+      <Banner
+        title={"About Us"}
+        info={"About Our Logistics"}
+        className={"bg-aboutBanner"}
+      />
       {/* ========== overview section =============== */}
       <div className="container flex flex-col md:flex-row items-center gap-10 my-10">
         <div className="w-full md:w-1/2 relative">
@@ -180,28 +132,7 @@ function About() {
         </div>
       </div>
       {/* ======== services section =========== */}
-      <div className="bg-secondary-100 my-10 py-10">
-        <div className="container">
-          <div className="header text-center space-y-3">
-            <Title text={"What We Do"} className={"bg-secondary-50"} />
-            <h2 className="font-Rubik font-semibold text-secondary-400 text-2xl pb-5 md:text-4xl">
-              Our Logistics Services
-            </h2>
-            <div className="flex flex-wrap gap-10 justify-between ">
-              {services.map((item) => (
-                <Item
-                  key={item.id}
-                  {...item}
-                  className={
-                    "w-full sm:w-1/3 md:w-1/4 flex-col border-0 gap-0 text-left"
-                  }
-                />
-              ))}
-            </div>
-            <DarkButton className="!mt-10">More Works</DarkButton>
-          </div>
-        </div>
-      </div>
+      <Container className={"bg-secondary-100"} />
       {/* ========= team section =========== */}
       <div className="container my-10 ">
         <div className="header text-center space-y-3 mb-4">

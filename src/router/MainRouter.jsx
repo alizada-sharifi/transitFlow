@@ -1,5 +1,6 @@
 import { About, Home, NotFound } from "../pages";
 import MainLayout from "../layouts/MainLayout";
+import Service from "../pages/Service";
 
 const MainRouter = [
   {
@@ -13,6 +14,10 @@ const MainRouter = [
       {
         path: "about",
         element: <About />,
+      },
+      {
+        path: "services",
+        element: <Service />,
       },
       {
         path: "*",

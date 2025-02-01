@@ -7,7 +7,7 @@ function Number({ number, title, className }) {
   return (
     <div
       className={cn(
-        "Nubmer font-Rubik flex items-center gap-3 py-4 px-8 border-y ",
+        "Nubmer font-Rubik flex items-center gap-2 py-4 px-8 border-y ",
         className
       )}
     >
@@ -15,7 +15,7 @@ function Number({ number, title, className }) {
         start={0}
         end={number}
         duration={4}
-        className="font-semibold text-3xl "
+        className="font-semibold text-2xl "
       />
       <Square />
       <span className="text-xl text-secondary-400">{title}</span>
