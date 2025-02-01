@@ -1,6 +1,7 @@
 import { About, Home, NotFound } from "../pages";
 import MainLayout from "../layouts/MainLayout";
 import Service from "../pages/Service";
+import ServiceDetail from "../pages/ServiceDetail";
 
 const MainRouter = [
   {
@@ -18,6 +19,10 @@ const MainRouter = [
       {
         path: "services",
         element: <Service />,
+      },
+      {
+        path: "serviceDetail/:id",
+        element: <ServiceDetail />,
       },
       {
         path: "*",

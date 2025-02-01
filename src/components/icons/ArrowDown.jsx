@@ -13,8 +13,8 @@ function ArrowDown({ className }) {
         d="M1 1L5 5L9 1"
         className={className}
         strokeWidth="1.5"
-        strokelinecap="round"
-        strokeinejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

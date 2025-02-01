@@ -19,9 +19,9 @@ function Square() {
           y2="5.20206"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFB629" />
-          <stop offset="0.507189" stop-color="#FFDA56" />
-          <stop offset="1" stop-color="#FFD7A6" />
+          <stop stopColor="#FFB629" />
+          <stop offset="0.507189" stopColor="#FFDA56" />
+          <stop offset="1" stopColor="#FFD7A6" />
         </linearGradient>
       </defs>
     </svg>

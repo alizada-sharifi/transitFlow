@@ -13,16 +13,16 @@ function Clock2() {
       <path
         d="M32 42C38.0751 42 43 37.0751 43 31C43 24.9249 38.0751 20 32 20C25.9249 20 21 24.9249 21 31C21 37.0751 25.9249 42 32 42Z"
         stroke="#1C1F35"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M32 25V31H39"
         stroke="#1C1F35"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <linearGradient
@@ -33,9 +33,9 @@ function Clock2() {
           y2="19.2782"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFB629" />
-          <stop offset="0.507189" stop-color="#FFDA56" />
-          <stop offset="1" stop-color="#FFD7A6" />
+          <stop stopColor="#FFB629" />
+          <stop offset="0.507189" stopColor="#FFDA56" />
+          <stop offset="1" stopColor="#FFD7A6" />
         </linearGradient>
       </defs>
     </svg>

@@ -13,44 +13,44 @@ function Money() {
       <path
         d="M42.9643 21H16.0357C15.4637 21 15 21.4477 15 22V36C15 36.5523 15.4637 37 16.0357 37H42.9643C43.5363 37 44 36.5523 44 36V22C44 21.4477 43.5363 21 42.9643 21Z"
         stroke="#1C1F35"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M29.5 33C31.433 33 33 31.433 33 29.5C33 27.567 31.433 26 29.5 26C27.567 26 26 27.567 26 29.5C26 31.433 27.567 33 29.5 33Z"
         stroke="#1C1F35"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M36 21L44 28"
         stroke="#1C1F35"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M36 37L44 30"
         stroke="#1C1F35"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M23 21L15 28"
         stroke="#1C1F35"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M23 37L15 30"
         stroke="#1C1F35"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <linearGradient
@@ -61,9 +61,9 @@ function Money() {
           y2="17.7482"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFB629" />
-          <stop offset="0.507189" stop-color="#FFDA56" />
-          <stop offset="1" stop-color="#FFD7A6" />
+          <stop stopColor="#FFB629" />
+          <stop offset="0.507189" stopColor="#FFDA56" />
+          <stop offset="1" stopColor="#FFD7A6" />
         </linearGradient>
       </defs>
     </svg>

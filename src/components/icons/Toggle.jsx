@@ -1,18 +1,18 @@
 import React from "react";
 
-function ToggleRight() {
+function Toggle() {
   return (
     <svg
-      width="20"
-      height="18"
-      viewBox="0 0 10 18"
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M1 1L9 9L1 17"
+        d="M8.53846 1.38428L15 7.88428M15 7.88428L8.53846 14.3843M15 7.88428H1"
         stroke="#1C1F35"
-        strokeWidth="2"
+        strokeWidth="1.5"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -20,4 +20,4 @@ function ToggleRight() {
   );
 }
 
-export default ToggleRight;
+export default Toggle;

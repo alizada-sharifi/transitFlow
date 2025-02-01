@@ -13,30 +13,30 @@ function Globe() {
       <path
         d="M32 20C38.6274 20 44 25.3726 44 32C44 38.6274 38.6274 44 32 44C25.3726 44 20 38.6274 20 32C20 25.3726 25.3726 20 32 20Z"
         stroke="#1C1F35"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M21 36H43"
         stroke="#1C1F35"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M21 28H43"
         stroke="#1C1F35"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M32 20C34.2091 20 36 25.3726 36 32C36 38.6274 34.2091 44 32 44C29.7909 44 28 38.6274 28 32C28 25.3726 29.7909 20 32 20Z"
         stroke="#1C1F35"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <linearGradient
@@ -47,9 +47,9 @@ function Globe() {
           y2="19.2782"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFB629" />
-          <stop offset="0.507189" stop-color="#FFDA56" />
-          <stop offset="1" stop-color="#FFD7A6" />
+          <stop stopColor="#FFB629" />
+          <stop offset="0.507189" stopColor="#FFDA56" />
+          <stop offset="1" stopColor="#FFD7A6" />
         </linearGradient>
       </defs>
     </svg>

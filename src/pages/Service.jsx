@@ -75,8 +75,7 @@ function Service() {
             <img src={truck} alt="" />
             <img
               src={person}
-              alt=""
-              className="w-44 h-44 object-cover p-4 bg-white absolute -bottom-5 -right-10"
+              className="w-44 h-44 object-cover p-4 bg-white absolute -bottom-5 -right-8"
             />
           </div>
           <div className="w-full md:w-1/2 space-y-4">

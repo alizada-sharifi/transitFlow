@@ -19,16 +19,16 @@ function ArrowLeft() {
       <path
         d="M28 21.4648L16 21.4648"
         stroke="#091242"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M21 26.4648L16 21.4648L21 16.4648"
         stroke="#091242"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <defs>
         <linearGradient
@@ -39,9 +39,9 @@ function ArrowLeft() {
           y2="13.3219"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFB629" />
-          <stop offset="0.507189" stop-color="#FFDA56" />
-          <stop offset="1" stop-color="#FFD7A6" />
+          <stop stopColor="#FFB629" />
+          <stop offset="0.507189" stopColor="#FFDA56" />
+          <stop offset="1" stopColor="#FFD7A6" />
         </linearGradient>
       </defs>
     </svg>
