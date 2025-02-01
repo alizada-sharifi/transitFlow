@@ -41,6 +41,7 @@ module.exports = {
         blogBanner: "url(./src/assets/images/blogBanner.png)",
         blogDetailBanner: "url(./src/assets/images/blogDetailBanner.png)",
         teamBanner: "url(./src/assets/images/teamBanner.png)",
+        contactBanner: "url(./src/assets/images/contactBanner.png)",
       },
       fontFamily: {
         Krub: ["krub", "sans-serif"],

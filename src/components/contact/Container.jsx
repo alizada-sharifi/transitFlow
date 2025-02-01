@@ -2,10 +2,7 @@ import React from "react";
 import Title from "../Title";
 import { Clock, Email, Phone } from "../icons";
 import GoldenButton from "../buttons/GoldenButton";
-import img1 from "../../assets/images/img1.png";
-import img2 from "../../assets/images/img2.png";
-import img3 from "../../assets/images/img3.png";
-import img4 from "../../assets/images/img4.png";
+
 const headingInfo = [
   {
     id: 1,
@@ -42,10 +39,10 @@ function Container() {
     console.log("Form submitted:", data);
   };
   return (
-    <div className="bg-primary py-12 my-10">
-      <div className="container">
-        <div className="flex flex-col md:flex-row gap-4 items-center">
-          <div className=" w-full md:w-1/3 text-white">
+    <div className="container  py-12 my-10 bg-primary">
+      <div className="">
+        <div className="flex flex-col  gap-4 items-center">
+          <div className=" w-full md:text-center text-white">
             <Title className={"bg-secondary-50 text-white"} text={"Contact"} />
             <h2 className="font-Rubik font-semibold text-3xl my-6">
               Get in touch with us
@@ -55,14 +52,16 @@ function Container() {
               strategy foster collaborative thinking to further the overall
               value.
             </p>
-            {headingInfo.map((item) => (
-              <HeadingItem key={item.id} {...item} className={"my-6"} />
-            ))}
+            <div className="flex flex-col md:flex-row gap-x-10  justify-center">
+              {headingInfo.map((item) => (
+                <HeadingItem key={item.id} {...item} className={"my-6"} />
+              ))}
+            </div>
           </div>
-          <div className=" w-full md:w-2/3">
+          <div className=" w-full ">
             <FormProvider {...methods}>
               <form onSubmit={methods.handleSubmit(onSubmit)} noValidate>
-                <div className="flex flex-col md:flex-row gap-4">
+                <div className="flex flex-col md:flex-row gap-4 ">
                   <div className="w-full md:w-1/2 space-y-4">
                     <Input name="name" type="text" placeholder="Your name*" />
                     <Input
@@ -77,18 +76,12 @@ function Container() {
                   </div>
                 </div>
                 <Textarea placeholder={"Your Message"} />
-                <GoldenButton className="mt-4" type="submit">
+                <GoldenButton className="mt-4 " type="submit">
                   Submit Message
                 </GoldenButton>
               </form>
             </FormProvider>
           </div>
-        </div>
-        <div className="flex flex-wrap mt-4">
-          <img src={img1} alt="" className="w-1/2 md:w-1/4" />
-          <img src={img2} alt="" className="w-1/2 md:w-1/4" />
-          <img src={img3} alt="" className="w-1/2 md:w-1/4" />
-          <img src={img4} alt="" className="w-1/2 md:w-1/4" />
         </div>
       </div>
     </div>
