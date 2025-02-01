@@ -2,7 +2,7 @@ import React from "react";
 import { Calender } from "./icons";
 import { Link } from "react-router-dom";
 import { cn } from "../helpers/common";
-function BlogItem({ className, title, day, month , pic }) {
+function BlogItem({ className, title, day, month, pic, id }) {
   return (
     <div
       className={cn(
@@ -14,13 +14,16 @@ function BlogItem({ className, title, day, month , pic }) {
         <div className="relative w-2/3 group  ">
           <img src={pic} alt="" className=" object-cover h-full" />
           <div className="bg-secondary-400 bg-opacity-90 absolute w-5/6 top-1/4 py-10 md:py-20 left-6 hidden group-hover:flex items-center justify-center  ">
-            <Link className="text-white font-Krub font-semibold hover:text-golden">
+            <Link
+              className="text-white font-Krub font-semibold hover:text-golden"
+              to={`/blogDetail/${id}`}
+            >
               Read More
             </Link>
           </div>
         </div>
         <div className="flex flex-col items-center gap-1">
-          <Calender />
+          <Calender className={"stroke-secondary-400"} />
           <span className="font-Rubik font-semibold text-5xl text-secondary-400">
             {day}
           </span>

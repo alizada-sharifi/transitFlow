@@ -1,6 +1,6 @@
 import React from "react";
 
-function Calender() {
+function Calender({ className }) {
   return (
     <svg
       width="53"
@@ -14,7 +14,7 @@ function Calender() {
         y="28"
         width="6"
         height="6"
-        stroke="#1C1F35"
+        className={className}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -23,7 +23,7 @@ function Calender() {
         y="41"
         width="6"
         height="6"
-        stroke="#1C1F35"
+        className={className}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -32,7 +32,7 @@ function Calender() {
         y="28"
         width="6"
         height="6"
-        stroke="#1C1F35"
+        className={className}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -41,7 +41,7 @@ function Calender() {
         y="41"
         width="6"
         height="6"
-        stroke="#1C1F35"
+        className={className}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -51,7 +51,7 @@ function Calender() {
         width="6"
         height="6"
         fill="#FFD550"
-        stroke="#1C1F35"
+        className={className}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -60,7 +60,7 @@ function Calender() {
         y="41"
         width="6"
         height="6"
-        stroke="#1C1F35"
+        className={className}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -70,25 +70,25 @@ function Calender() {
       />
       <path
         d="M50 5.66699H3.33333C2.04467 5.66699 1 6.71166 1 8.00033V54.667C1 55.9557 2.04467 57.0003 3.33333 57.0003H50C51.2887 57.0003 52.3333 55.9557 52.3333 54.667V8.00033C52.3333 6.71166 51.2887 5.66699 50 5.66699Z"
-        stroke="#1C1F35"
+        className={className}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M40.667 1V10.3333"
-        stroke="#1C1F35"
+        className={className}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M12.667 1V10.3333"
-        stroke="#1C1F35"
+        className={className}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M1 19.667H52.3333"
-        stroke="#1C1F35"
+        className={className}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

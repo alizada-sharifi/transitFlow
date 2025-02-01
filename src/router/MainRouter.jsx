@@ -4,6 +4,8 @@ import Service from "../pages/Service";
 import ServiceDetail from "../pages/ServiceDetail";
 import Project from "../pages/Project";
 import ProjectDetail from "../pages/ProjectDetail";
+import Blog from "../pages/Blog";
+import BlogDetail from "../pages/BlogDetail";
 
 const MainRouter = [
   {
@@ -33,6 +35,14 @@ const MainRouter = [
       {
         path: "projectDetail/:id",
         element: <ProjectDetail />,
+      },
+      {
+        path: "blog",
+        element: <Blog />,
+      },
+      {
+        path: "blogDetail/:id",
+        element: <BlogDetail />,
       },
       {
         path: "*",
