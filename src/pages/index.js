@@ -8,4 +8,5 @@ export { default as Blog } from "./Blog";
 export { default as BlogDetail } from "./BlogDetail";
 export { default as Team } from "./Team";
 export { default as Contact } from "./Contact";
+export { default as Pricing } from "./Pricing";
 export { default as NotFound } from "./NotFound";

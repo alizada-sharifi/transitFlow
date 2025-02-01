@@ -1,5 +1,5 @@
 import React from "react";
-import { cn } from "../helpers/common";
+import { cn } from "../../helpers/common";
 
 function PriceCard({ className, title, price, button }) {
   return (

@@ -10,6 +10,7 @@ import {
   BlogDetail,
   Team,
   Contact,
+  Pricing,
 } from "../pages";
 import MainLayout from "../layouts/MainLayout";
 const MainRouter = [
@@ -56,6 +57,10 @@ const MainRouter = [
       {
         path: "contact",
         element: <Contact />,
+      },
+      {
+        path: "pricing",
+        element: <Pricing />,
       },
       {
         path: "*",
