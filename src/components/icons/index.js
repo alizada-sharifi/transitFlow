@@ -35,3 +35,4 @@ export { default as Shield } from "./Shield";
 export { default as Tree } from "./Tree";
 export { default as Toggle } from "./Toggle";
 export { default as Playbtn } from "./PlayBtn";
+export { default as Chevron } from "./Chevron";
