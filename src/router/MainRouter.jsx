@@ -1,12 +1,16 @@
-import { About, Home, NotFound } from "../pages";
+import {
+  About,
+  Home,
+  NotFound,
+  Service,
+  ServiceDetail,
+  Project,
+  ProjectDetail,
+  Blog,
+  BlogDetail,
+  Team,
+} from "../pages";
 import MainLayout from "../layouts/MainLayout";
-import Service from "../pages/Service";
-import ServiceDetail from "../pages/ServiceDetail";
-import Project from "../pages/Project";
-import ProjectDetail from "../pages/ProjectDetail";
-import Blog from "../pages/Blog";
-import BlogDetail from "../pages/BlogDetail";
-
 const MainRouter = [
   {
     path: "/",
@@ -43,6 +47,10 @@ const MainRouter = [
       {
         path: "blogDetail/:id",
         element: <BlogDetail />,
+      },
+      {
+        path: "team",
+        element: <Team />,
       },
       {
         path: "*",

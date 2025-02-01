@@ -36,3 +36,5 @@ export { default as Tree } from "./Tree";
 export { default as Toggle } from "./Toggle";
 export { default as Playbtn } from "./PlayBtn";
 export { default as Chevron } from "./Chevron";
+export { default as User2 } from "./User2";
+export { default as Hourglass } from "./Hourglass";

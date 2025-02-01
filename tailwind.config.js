@@ -40,6 +40,7 @@ module.exports = {
         ProjectDetailBanner: "url(./src/assets/images/projectDetailBaneer.png)",
         blogBanner: "url(./src/assets/images/blogBanner.png)",
         blogDetailBanner: "url(./src/assets/images/blogDetailBanner.png)",
+        teamBanner: "url(./src/assets/images/teamBanner.png)",
       },
       fontFamily: {
         Krub: ["krub", "sans-serif"],
