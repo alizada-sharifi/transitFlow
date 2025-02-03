@@ -1,93 +1,91 @@
 import React from "react";
-import { cn } from "../../helpers/common";
 
-function Warehouse({ className }) {
+function Warehouse() {
   return (
     <svg
-      Width="57"
-      height="46"
-      viewBox="0 0 57 46"
+      width="57"
+      height="58"
+      viewBox="0 0 57 58"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className={cn("", className)}
     >
       <path
-        d="M2.33398 45H54.7149"
+        d="M2.05176 45.6494H54.4327"
         stroke="#141414"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M32.7147 45V2.91304C32.7147 2.40567 32.5097 1.91908 32.1448 1.56032C31.7799 1.20155 31.2851 1 30.7691 1H7.42214C6.90614 1 6.41128 1.20155 6.04641 1.56032C5.68154 1.91908 5.47656 2.40567 5.47656 2.91304V45"
+        d="M32.4324 45.6494V3.56246C32.4324 3.05509 32.2275 2.5685 31.8626 2.20973C31.4977 1.85097 31.0029 1.64941 30.4869 1.64941H7.13991C6.62391 1.64941 6.12905 1.85097 5.76418 2.20973C5.39932 2.5685 5.19434 3.05509 5.19434 3.56246V45.6494"
         stroke="#141414"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M32.7148 13.5715H48.572C50.2288 13.5715 51.572 14.9147 51.572 16.5715V43.9525H32.7148V13.5715Z"
+        d="M32.4326 14.2209H48.2898C49.9466 14.2209 51.2898 15.5641 51.2898 17.2209V44.6019H32.4326V14.2209Z"
         fill="#FFD550"
         stroke="#141414"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M13.8574 10.4285H21.1908"
+        d="M13.5752 11.0779H20.9085"
         stroke="#141414"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M1.28613 40.8096L1.28613 26.1429"
+        d="M1.00391 41.459L1.00391 26.7923"
         stroke="#141414"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M55.7627 30.3333L55.7627 15.6666"
+        d="M55.4805 30.9824L55.4805 16.3158"
         stroke="#141414"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M35.8574 9.38086L43.1908 9.38086"
+        d="M35.5752 10.0303L42.9085 10.0303"
         stroke="#141414"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M17 26.1428H24.3333"
+        d="M16.7188 26.792H24.0521"
         stroke="#141414"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M13.8574 35.5715H21.1908"
+        d="M13.5752 36.2209H20.9085"
         stroke="#141414"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M40.0479 35.5715H44.2383"
+        d="M39.7656 36.2209H43.9561"
         stroke="#141414"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M40.0479 26.1428H44.2383"
+        d="M39.7656 26.792H43.9561"
         stroke="#141414"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );
