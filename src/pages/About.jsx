@@ -20,6 +20,7 @@ import GoldenButton from "../components/buttons/GoldenButton";
 import FaqItem from "../components/FaqItem";
 import Container from "../components/services/Container";
 import PriceContainer from "../components/pricing/PriceContainer";
+import banner from "../assets/images/aboutBanner.png";
 function About() {
   const teamsInfo = [
     {
@@ -69,7 +70,7 @@ function About() {
       <Banner
         title={"About Us"}
         info={"About Our Logistics"}
-        className={"bg-aboutBanner"}
+        background={banner}
       />
       {/* ========== overview section =============== */}
       <div className="container flex flex-col md:flex-row items-center gap-10 my-10">

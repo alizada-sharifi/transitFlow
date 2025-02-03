@@ -2,10 +2,14 @@ import React from "react";
 import Title from "../components/Title";
 import { cn } from "../helpers/common";
 import { Calender } from "./icons";
+import banner from "../assets/images/aboutBanner.png";
 
-function Banner({ title, info, className, day, month }) {
+function Banner({ title, info, className, day, month, background }) {
   return (
-    <div className={cn("py-40 bg-center bg-cover", className)}>
+    <div
+      className={cn("py-40 bg-center bg-cover", className)}
+      style={{ backgroundImage: `url(${background})` }}
+    >
       <div className="container">
         {title ? (
           <Title text={title} className="text-white" />
