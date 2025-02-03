@@ -10,6 +10,7 @@ import employee from "../assets/images/employee.png";
 import Modal from "../components/Modal";
 import GalleryItem from "../components/GalleryItem";
 import { useParams } from "react-router-dom";
+import bannerImg from "../assets/images/projectDetailBaneer.png";
 
 function ProjectDetail() {
   const { id } = useParams();
@@ -95,7 +96,7 @@ function ProjectDetail() {
       <Banner
         title={gallery.category}
         info={"Air Cargo Transportation"}
-        className={"bg-ProjectDetailBanner"}
+        background={bannerImg}
       />
       <div className="project-detail mb-10 py-10 bg-secondary-100">
         <div className="container flex flex-col md:flex-row gap-10 justify-center items-center">

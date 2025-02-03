@@ -8,6 +8,7 @@ import blog3 from "../assets/images/blog3.png";
 import airplane from "../assets/images/airplane.jpeg";
 import airplane2 from "../assets/images/airplane2.jpeg";
 import employee from "../assets/images/employee.png";
+import bannerImg from "../assets/images/projectBanner.png";
 
 function Project() {
   const galleries = [
@@ -60,11 +61,7 @@ function Project() {
   ];
   return (
     <>
-      <Banner
-        title={"Gallery"}
-        info={"Our Project"}
-        className={"bg-ProjectBanner"}
-      />
+      <Banner title={"Gallery"} info={"Our Project"} background={bannerImg} />
       <div className="container my-10 flex flex-wrap justify-between gap-y-10 ">
         {galleries.map((item) => (
           <GalleryItem key={item.id} {...item} />

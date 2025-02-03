@@ -7,6 +7,7 @@ import HeadingItem from "../components/layout/website/HeadingItem";
 import { Phone } from "../components/icons";
 import GoldenButton from "../components/buttons/GoldenButton";
 import Container from "../components/contact/Container";
+import bannerImg from "../assets/images/contactBanner.png";
 
 function Contact() {
   const faqInfo = [
@@ -36,10 +37,11 @@ function Contact() {
       <Banner
         title={"Contact"}
         info={"Contact Us"}
-        className={"bg-contactBanner mb-10"}
+        className={" mb-10"}
+        background={bannerImg}
       />
       {/* ===========contact section ========== */}
-      <Container  />
+      <Container />
       {/* ============ FAQ section ============= */}
       <div className="bg-secondary-100 my-10 py-8">
         <div className="container flex flex-col md:flex-row ">

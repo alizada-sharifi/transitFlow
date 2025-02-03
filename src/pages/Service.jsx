@@ -8,6 +8,7 @@ import { Shield, Tree, Warehouse } from "../components/icons";
 import Item from "../components/services/Item";
 import TestmonialContainer from "../components/testmonial/TestmonialContainer";
 import Number from "../components/Number";
+import bannerImg from "../assets/images/serviceBanner.png";
 
 function Service() {
   const itemsInfo = [
@@ -60,7 +61,7 @@ function Service() {
       <Banner
         title={"Services"}
         info={"Our Logistics Service"}
-        className={"bg-serviceBanner"}
+        background={bannerImg}
       />
       {/* ======== services section =========== */}
       <Container />

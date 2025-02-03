@@ -19,6 +19,7 @@ import person from "../assets/images/blog2.png";
 import airplane from "../assets/images/airplane.jpeg";
 import employee from "../assets/images/employee.png";
 import Modal from "../components/Modal";
+import bannerImg from "../assets/images/serviceDetailBanner.png";
 
 function ServiceDetail() {
   const { id } = useParams();
@@ -89,7 +90,7 @@ function ServiceDetail() {
       <Banner
         title={"Service Single"}
         info={"Service Details"}
-        className={"bg-serviceDetilBanner"}
+        background={bannerImg}
       />
       <div className="container my-10 spacey-8">
         <img

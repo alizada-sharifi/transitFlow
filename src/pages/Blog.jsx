@@ -7,6 +7,7 @@ import blog2 from "../assets/images/blog2.png";
 import blog3 from "../assets/images/blog3.png";
 import blog4 from "../assets/images/multiTruck.jpeg";
 import blog5 from "../assets/images/blog5.png";
+import bannerImg from "../assets/images/blogBanner.png";
 
 function Blog() {
   const blogInfo = [
@@ -51,7 +52,8 @@ function Blog() {
       <Banner
         title={"Blog"}
         info={"Our Latest News"}
-        className={"bg-blogBanner mb-10"}
+        className={"mb-10"}
+        background={bannerImg}
       />
       {/* ===========blog section =========== */}
       <div className="container my-10">

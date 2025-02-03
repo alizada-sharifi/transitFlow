@@ -12,6 +12,7 @@ import multiTruck from "../assets/images/multiTruck.jpeg";
 import person from "../assets/images/blog5.png";
 import Item from "../components/services/Item";
 import { Hourglass, User2 } from "../components/icons";
+import bannerImg from "../assets/images/teamBanner.png";
 
 function Team() {
   const teamsInfo = [
@@ -72,7 +73,7 @@ function Team() {
   ];
   return (
     <>
-      <Banner title={"team"} info={"Our Team"} className={"bg-teamBanner"} />
+      <Banner title={"team"} info={"Our Team"} background={bannerImg} />
       {/* ========= team section =========== */}
       <div className="bg-secondary-100  mb-10 py-10">
         <div className="container ">

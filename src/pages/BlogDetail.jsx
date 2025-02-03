@@ -3,6 +3,7 @@ import Banner from "../components/Banner";
 import ship from "../assets/images/ship2.png";
 import { Link, useParams } from "react-router-dom";
 import Title from "../components/Title";
+import bannerImg from "../assets/images/blogDetailBanner.png";
 
 function BlogDetail() {
   const { id } = useParams();
@@ -79,6 +80,7 @@ function BlogDetail() {
         day={blog.day}
         month={blog.month}
         info={blog.title}
+        background={bannerImg}
       />
       {/* ============== main section =========== */}
       <div className="container my-10 flex flex-col md:flex-row gap-10">
