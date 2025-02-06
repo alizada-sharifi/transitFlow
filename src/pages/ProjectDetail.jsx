@@ -184,6 +184,9 @@ function ProjectDetail() {
           </div>
         </div>
         {/* ============ related section ========== */}
+        <h2 className="font-Rubik capitalize font-semibold text-xl md:text-2xl text-secondary-400">
+          related project
+        </h2>
         <div className=" my-10 flex flex-wrap justify-between gap-y-10 ">
           {galleries
             .filter(
